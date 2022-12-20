@@ -1,0 +1,383 @@
+*, *::after, *::before{
+    margin: top;
+    padding: top;
+    box-sizing: border-box;
+    /* color: white; */
+}
+
+body{
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background: rgb(0, 0, 0);
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+}
+
+main nav{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+nav a{
+    padding-right: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+header #logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+header #logo #img{
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 150px;
+    max-height: 150px;
+    border-radius: 100px;
+    border: 1px solid rgb(56, 56, 56);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden
+}
+
+header #logo #img img{
+    width: 290px;
+    padding-top: 30px;
+}
+
+header #logo #text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+
+header #logo #text h3{
+    font-family: tahoma;
+    font-size: 35px;
+    color: white;
+}
+
+header #logo #text .nom{
+    color: rgb(219, 14, 209);
+}
+
+header #logo #text h6{
+    color: white;
+    font-size: 25px;
+    font-family: calibri;
+    margin-top: -28px;
+}
+
+header #nav{
+    width: 100%;
+    background: rgb(49, 49, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header #nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+header #nav ul li{
+    padding: 0px 100px;
+    list-style: none;
+}
+
+
+#head #con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#head #con i{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+header #nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+main .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+
+.main #grid1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.main #grid1 .sum{
+    display: flex;
+    flex-direction: column;
+}
+
+.main #grid1 .sum #head{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    background: rgb(63, 63, 63);
+    height: 60px;
+    border-radius: 50px 50px 50px 50px;
+    color: white;
+}
+
+.main #grid1 .sum #head #con{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background: rgb(219, 14, 209);
+}
+
+.main #grid1 .sum #head h2{
+    padding-left: 20px;
+    font-family: tahoma;
+    font-size: 20px;
+    color: white;
+
+}
+
+.main #grid1 .sum #content{
+    max-width: 400px;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+
+.main #grid1 .projects #content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#grid1 .skills{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#grid1 .skills #head{
+    width: 300px;
+    height: 60px;
+    background: rgb(63, 63, 63);
+    border-radius: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+
+#grid1 .skills #head #con{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background: rgb(219, 14, 209);
+}
+
+
+
+.main #grid1 .skills #head h2{
+    padding-left: 20px;
+    color: white;
+    font-family: tahoma;
+    font-size: 20px;
+}
+
+ .main #grid1 .skills #content{
+    max-width: 400px;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+
+} 
+
+.skills #content h5{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+
+}
+
+
+#content .tech ul li{
+    list-style: none;
+    margin-left: -40px;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-top: 4px;
+}
+
+.skills #content .tech{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center;v */
+}
+
+.skills #content .techo{
+    display: flex;
+    flex-direction: column;
+}
+
+.skills #content .tech #circ{
+    display: flex;
+    margin-left: 30px;
+}
+
+.skills #content .tech #circ .off{
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: 1px solid rgb(219, 14, 209);
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+
+.skills #content .tech #circ .on{
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(219, 14, 209);
+    background: rgb(219, 14, 209);
+    margin-right: 10px;
+
+    border-radius: 50px;
+
+}
+
+@media(max-width: 900px){
+    main .main{
+        flex-direction: column;
+    }
+
+    #grid1 .skills{
+        margin-top: 60px;
+    }
+    header #nav ul li{
+        padding: 0px 50px;
+        list-style: none;
+    }
+    .main #grid1 .sum #head{
+        width: 300px;
+    }
+    .main #grid1 .sum #content{
+        max-width: 270px;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    main nav{
+        padding: 0px 10px;
+    }
+    
+    nav a{
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 450px){
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header #logo{
+        margin-top: 100px;
+        padding-bottom: 100px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid rgb(109, 109, 109);
+
+    }
+    header #logo #text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .main #grid1 .skills #head h2{
+        padding-left: 5px;
+    }
+    
+    header #nav ul li{
+        padding: 0px 20px;
+        list-style: none;
+    }
+    .main #grid1 .sum #head{
+        width: 250px;
+    }
+    .main #grid1 .sum #content{
+        max-width: 240px;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    main nav{
+        padding: 0px 5px;
+    }
+    
+    nav a{
+        padding-right: 5px;
+    }
+
+    #grid1 .skills #head{
+        width: 260px;
+    }
+
+    .main #grid1 .skills #content{
+        max-width: 240px;
+        padding-left: 10px;
+        padding-top: 20px;
+    } 
+    header #nav{
+        display: none;
+    }
+}
