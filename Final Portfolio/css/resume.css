@@ -85,7 +85,7 @@ header #logo #text h3{
 }
 
 header #logo #text .nom{
-    color: rgb(219, 14, 209);
+    color: #c9009d;
 }
 
 header #logo #text h6{
@@ -165,7 +165,7 @@ main .main{
     width: 60px;
     height: 60px;
     border-radius: 50px;
-    background: rgb(219, 14, 209);
+    background: #c9009d;
 }
 
 .main #grid1 .sum #head h2{
@@ -214,7 +214,7 @@ main .main{
     width: 60px;
     height: 60px;
     border-radius: 50px;
-    background: rgb(219, 14, 209);
+    background: #c9009d;
 }
 
 
@@ -273,7 +273,7 @@ main .main{
     width: 20px;
     height: 20px;
     background: none;
-    border: 1px solid rgb(219, 14, 209);
+    border: 1px solid #c9009d;
     border-radius: 50px;
     margin-right: 10px;
 }
@@ -282,8 +282,8 @@ main .main{
 .skills #content .tech #circ .on{
     width: 20px;
     height: 20px;
-    border: 1px solid rgb(219, 14, 209);
-    background: rgb(219, 14, 209);
+    border: 1px solid #c9009d;
+    background: #c9009d;
     margin-right: 10px;
 
     border-radius: 50px;
