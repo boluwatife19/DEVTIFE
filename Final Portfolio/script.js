@@ -36,11 +36,11 @@ setInterval(blae, 500)
 const data = [
     
     {
-        link:`"https://lokosfood.netlify.app/"`,
+        link:`"https://lokosfoods.netlify.app/"`,
         img:`"./img/Screenshot (205).png"`,
         tech: `<button class="btn">Design</button><button class="btn">Branding</button>`,
         name: `LOKO's FOOD`,
-        industry: `CDWP`,
+        industry: `DEVTIFE`,
         locat: `Lagos, NG`
     },
     {
@@ -48,15 +48,15 @@ const data = [
         img:`"./img/Screenshot (209).png"`,
         tech: `<button class="btn">Design</button><button class="btn">Branding</button>`,
         name: `EAT WITH ANNA`,
-        industry: `CDWP`,
+        industry: `DEVTIFE`,
         locat: `Lagos, NG`
     },
     {
-        link:`"https://paffsb.netlify.app/"`,
+        link:`"https://mavinsng.netlify.app/"`,
         img:`"./img/Screenshot (212).png"`,
         tech: `<button class="btn">React Js</button>`,
         name: `MAVIN`,
-        industry: `CDWP`,
+        industry: `DEVTIFE`,
         locat: `Lagos, NG`
     },
     {
@@ -64,7 +64,7 @@ const data = [
         img:`"./img/Screenshot (67).png"`,
         tech: `<button class="btn">Design</button><button class="btn">Branding</button>`,
         name: `Paffsb`,
-        industry: `CDWP`,
+        industry: `DEVTIFE`,
         locat: `Lagos, NG`
     },
     {
@@ -72,7 +72,7 @@ const data = [
         img:`"./img/Screenshot (49).png"`,
         tech: `<button class="btn">HTML & CSS</button><button class="btn">JS</button>`,
         name: `Subway Counter`,
-        industry: `CDWP`,
+        industry: `DEVTIFE`,
         locat: `Lagos, NG`
     },
     {
@@ -80,7 +80,7 @@ const data = [
         img:`"./img/Screenshot (79).png"`,
         tech: `<button class="btn">HTML & CSS</button><button class="btn">JS</button>`,
         name: `EMPIRE EXC`,
-        industry: `CDWP`,
+        industry: `DEVTIFE`,
         locat: `Lagos, NG`
     },
     {
@@ -96,7 +96,7 @@ const data = [
         img:`"./img/Screenshot (152).png"`,
         tech: `<button class="btn">HTML</button><button class="btn">CSS</button><button class="btn">JS</button>`,
         name: `CDWP Quote Generator`,
-        industry: `CDWP`,
+        industry: `DEVTIFE`,
         locat: `Lagos, NG`
     },
     {
@@ -104,7 +104,7 @@ const data = [
         img:`"./img/Screenshot (206).png"`,
         tech: `<button class="btn">HTML</button><button class="btn">CSS</button><button class="btn">JS</button>`,
         name: `REV AUSTIN`,
-        industry: `CDWP`,
+        industry: `DEVTIFE`,
         locat: `Lagos, NG`
     }
 ]
