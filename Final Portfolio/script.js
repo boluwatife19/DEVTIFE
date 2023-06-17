@@ -37,7 +37,7 @@ const data = [
     
     {
         link:`"https://lokosfood.netlify.app/"`,
-        img:`"/img/Screenshot (205).png"`,
+        img:`"./img/Screenshot (205).png"`,
         tech: `<button class="btn">Design</button><button class="btn">Branding</button>`,
         name: `LOKO's FOOD`,
         industry: `CDWP`,
@@ -45,7 +45,7 @@ const data = [
     },
     {
         link:`"https://eatwitheva.netlify.app/"`,
-        img:`"/img/Screenshot (209).png"`,
+        img:`"./img/Screenshot (209).png"`,
         tech: `<button class="btn">Design</button><button class="btn">Branding</button>`,
         name: `EAT WITH ANNA`,
         industry: `CDWP`,
@@ -53,7 +53,7 @@ const data = [
     },
     {
         link:`"https://paffsb.netlify.app/"`,
-        img:`"/img/Screenshot (212).png"`,
+        img:`"./img/Screenshot (212).png"`,
         tech: `<button class="btn">React Js</button>`,
         name: `MAVIN`,
         industry: `CDWP`,
@@ -61,7 +61,7 @@ const data = [
     },
     {
         link:`"https://paffsb.netlify.app/"`,
-        img:`"/img/Screenshot (67).png"`,
+        img:`"./img/Screenshot (67).png"`,
         tech: `<button class="btn">Design</button><button class="btn">Branding</button>`,
         name: `Paffsb`,
         industry: `CDWP`,
@@ -69,7 +69,7 @@ const data = [
     },
     {
         link:`"https://subwaycountercdw.netlify.app/"`,
-        img:`"/img/Screenshot (49).png"`,
+        img:`"./img/Screenshot (49).png"`,
         tech: `<button class="btn">HTML & CSS</button><button class="btn">JS</button>`,
         name: `Subway Counter`,
         industry: `CDWP`,
@@ -77,7 +77,7 @@ const data = [
     },
     {
         link:`"https://empireexc.netlify.app"`,
-        img:`"/img/Screenshot (79).png"`,
+        img:`"./img/Screenshot (79).png"`,
         tech: `<button class="btn">HTML & CSS</button><button class="btn">JS</button>`,
         name: `EMPIRE EXC`,
         industry: `CDWP`,
@@ -85,7 +85,7 @@ const data = [
     },
     {
         link:`"https://cdwnewyaearcdd.netlify.app/"`,
-        img:`"/img/Screenshot (133).png"`,
+        img:`"./img/Screenshot (133).png"`,
         tech: `<button class="btn">HTML</button><button class="btn">CSS</button><button class="btn">JS</button>`,
         name: `CDWP COUNTDOWN`,
         industry: `CDWP`,
@@ -93,7 +93,7 @@ const data = [
     },
     {
         link:`"https://cdwpquotegenerator.netlify.app"`,
-        img:`"/img/Screenshot (152).png"`,
+        img:`"./img/Screenshot (152).png"`,
         tech: `<button class="btn">HTML</button><button class="btn">CSS</button><button class="btn">JS</button>`,
         name: `CDWP Quote Generator`,
         industry: `CDWP`,
@@ -101,7 +101,7 @@ const data = [
     },
     {
         link:`"https://fraustin.netlify.app/"`,
-        img:`"/img/Screenshot (206).png"`,
+        img:`"./img/Screenshot (206).png"`,
         tech: `<button class="btn">HTML</button><button class="btn">CSS</button><button class="btn">JS</button>`,
         name: `REV AUSTIN`,
         industry: `CDWP`,

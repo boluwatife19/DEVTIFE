@@ -1,3 +1,7 @@
+:root{
+    --bg: rgb(0, 96, 240);
+}
+
 *, *::after, *::before{
     margin: top;
     padding: top;
@@ -85,7 +89,7 @@ header #logo #text h3{
 }
 
 header #logo #text .nom{
-    color: #c9009d;
+    color: var(--bg);
 }
 
 header #logo #text h6{
@@ -165,7 +169,7 @@ main .main{
     width: 60px;
     height: 60px;
     border-radius: 50px;
-    background: #c9009d;
+    background: var(--bg);
 }
 
 .main #grid1 .sum #head h2{
@@ -214,7 +218,7 @@ main .main{
     width: 60px;
     height: 60px;
     border-radius: 50px;
-    background: #c9009d;
+    background: var(--bg);
 }
 
 
@@ -273,7 +277,7 @@ main .main{
     width: 20px;
     height: 20px;
     background: none;
-    border: 1px solid #c9009d;
+    border: 1px solid var(--bg);
     border-radius: 50px;
     margin-right: 10px;
 }
@@ -282,8 +286,8 @@ main .main{
 .skills #content .tech #circ .on{
     width: 20px;
     height: 20px;
-    border: 1px solid #c9009d;
-    background: #c9009d;
+    border: 1px solid var(--bg);
+    background: var(--bg);
     margin-right: 10px;
 
     border-radius: 50px;

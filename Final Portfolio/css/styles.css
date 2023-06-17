@@ -1,3 +1,10 @@
+:root{
+    --bg: linear-gradient(90deg, rgb(130, 180, 255), rgb(0, 96, 240) 29%, rgb(0, 55, 138) 58%, rgb(48, 131, 255));
+    --bg1: linear-gradient(45deg, #06acd6, #404cf4 28%, #c7fdf4 61%, #6170f3);
+}
+
+
+
 *, *::before, *::after{
     margin: 0;
     padding: 0;
@@ -9,6 +16,11 @@ html{
     scroll-behavior: smooth;
 }
 
+
+.devtife{
+    max-width: 200px;
+    padding: 0px 20px;
+}
 
 body{
     background: rgb(0, 0, 0);
@@ -113,7 +125,7 @@ body header .navbar ul li a{
 }
 
 body header .navbar ul li a:hover{
-    background: linear-gradient(90deg, rgb(189, 16, 195), rgb(205, 21, 144) 29%, rgb(210, 23, 126) 58%, rgb(243, 163, 163));
+    background: var(--bg);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
@@ -136,7 +148,7 @@ body header .btn .contact{
 }
 
 body header .btn .contact:hover{
-    background: url(/img/hu.png);
+    background: url(../img/hu.png);
     background-size: 400px;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -199,7 +211,7 @@ body header .btn .contact:hover{
     height: 600px;
     /* min-width: 430px; */
     max-height: 600px;
-    background: url(/img/hu.png);
+    background: url(../img/hu.png);
     background-size: 600px 1100px;
     background-position: center;
     background-repeat: no-repeat;
@@ -238,7 +250,7 @@ body header .btn .contact:hover{
 }
 
 .gradient{
-    background: linear-gradient(90deg, rgb(189, 16, 195), rgb(205, 21, 144) 29%, rgb(210, 23, 126) 58%, rgb(243, 163, 163));
+    background: var(--bg);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
@@ -275,7 +287,7 @@ a .btn-grad{
     margin-top: 7%;
     width: 250px;
     height: 70px;
-    background: linear-gradient(to top, rgba(0,0,0,0.1)50%, rgba(0,0,0,0.1)50%), url(/img/hu.png);
+    background: linear-gradient(to top, rgba(0,0,0,0.1)50%, rgba(0,0,0,0.1)50%), url(../img/hu.png);
     background-size: 400px 200px;
     background-position: center;
     border-radius: 50px;
@@ -360,7 +372,7 @@ body #trust{
     background: rgb(31, 31, 31);
     margin-top: 50px;
     transition: .4s ease;
-    border: 3px solid linear-gradient(45deg, #990078, #f440a3 28%, #c40099 61%, #c954ff);
+    border: 3px solid var(--bg1);
 }
 
 #first-grid:hover{
@@ -370,7 +382,7 @@ body #trust{
 #top-grad{
     width: inherit;
     height: 5px;
-    background: url(/img/hu.png);
+    background: url(../img/hu.png);
     background-position: center;
     background-size: 550px 40px;
     background-repeat: no-repeat;
@@ -389,6 +401,10 @@ body #trust{
 
 #grad-body #logo{
     margin-bottom: 20px;
+}
+
+#logo img{
+    max-height: 70px;
 }
 
 #grad-body p{
@@ -601,7 +617,7 @@ body #trust{
     /* width: 560px; */
     /* height: 612px; */
     /* margin-right: 10px; */
-    background: linear-gradient(45deg, #ce06d6, #f440a3 28%, #fdc7ca 61%, #6183f3);
+    background: var(--bg1);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 800px ;
@@ -619,15 +635,16 @@ body #trust{
     display: flex;
     justify-content: flex-start;
     padding: 15px;
+    color: black;
 }
 
 #cl-relations #grid #cl-frame #sub-frame #cl-cicn{
     width: 50px;
     height: 50px;
-    background: linear-gradient(45deg, #d606a9, #f440a3 28%, #c40099 61%, #f361db);
+    background: var(--bg1);
     border: none;
     border-radius: 50px;
-    color: white;
+    color: rgb(0, 0, 0);
     max-height: 50px;
     min-width: 50px;
     text-align: center;
@@ -910,7 +927,7 @@ body #trust{
     height: 40px;
     border-radius: 10px;
     border: none;
-    background: url(/img/61f11c12ccb99e089078fc33_Main\ Image\ BG-p-500.png);
+    background: url(../img/61f11c12ccb99e089078fc33_Main\ Image\ BG-p-500.png);
     background-size: 300px;
     background-repeat: no-repeat;
     background-position: center;
@@ -1014,7 +1031,7 @@ body #trust{
 #footer #gen2 a #cic{
     width: 50px;
     height: 50px;
-    background: linear-gradient(45deg, #990078, #f440a3 28%, #c40099 61%, #c954ff);
+    background: var(--bg1);
     border-radius: 50px;
     margin-right: 15px;
     color: white;
@@ -1259,7 +1276,7 @@ body header{
     }
 
     .hambuger.open #bar1{
-        background: rgb(255, 148, 255);
+        background: rgb(148, 191, 255);
         transform: rotate(45deg) translate(5px, 5px);
     }
 
@@ -1268,7 +1285,7 @@ body header{
     }
 
     .hambuger.open #bar3{
-        background: rgb(255, 148, 255);
+        background: rgb(148, 221, 255);
         transform: rotate(-45deg) translate(5px, -5px);
 
     }
@@ -1329,7 +1346,7 @@ body header .navbar ul li a{
 }
 
 body header .navbar ul li a:hover{
-    background: linear-gradient(90deg, rgb(189, 16, 195), rgb(205, 21, 144) 29%, rgb(210, 23, 126) 58%, rgb(243, 163, 163));
+    background: var(--bg);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
@@ -1480,11 +1497,12 @@ body header .btn .contact{
     /* width: 560px; */
     /* height: 612px; */
     /* margin-right: 10px; */
-    background: linear-gradient(45deg, #ce06d6, #f440a3 28%, #fdc7ca 61%, #6183f3);
+    background: var(--bg1);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 800px ;
     margin-top: 40px;
+    color: black;
 }
 
 #cl-relations #grid #cl-frame #frame{
@@ -1510,7 +1528,7 @@ body header .navbar{
 #cl-relations #grid #cl-frame #sub-frame #cl-cicn{
     width: 50px;
     height: 50px;
-    background: linear-gradient(45deg, #d606a9, #f440a3 28%, #c40099 61%, #f361db);
+    background: var(--bg1);
     border: none;
     border-radius: 50px;
     color: white;
@@ -1693,7 +1711,7 @@ body header{
 #footer #gen2 a #cic{
     width: 40px;
     height: 40px;
-    background: linear-gradient(45deg, #990078, #f440a3 28%, #c40099 61%, #c954ff);
+    background: var(--bg1);
     border-radius: 50px;
     margin-right: 15px;
     color: white;
@@ -1937,7 +1955,7 @@ body header{
         width: 360px;
         height: 500px;
         min-height: 500px;
-        background: url(/img/hu.png);
+        background: url(../img/hu.png);
         background-size: 395px 900px;
         background-position: center;
         background-repeat: no-repeat;
@@ -2030,6 +2048,12 @@ body header{
     font-family: tahoma;
 }
 
+
+.devtife{
+    max-width: 150px;
+    padding: 0px 10px;
+}
+
 body header .navbar ul li a{
     color: white;
     font-size: 16px;
@@ -2105,7 +2129,7 @@ body header .btn .contact{
 .view #cic{
     width: 50px;
     height: 50px;
-    background: url(/img/hu.png);
+    background: url(../img/hu.png);
     background-size: 300px 300px;
     background-position: center;
     border-radius: 50px;
@@ -2122,10 +2146,10 @@ body header .btn .contact{
 #cl-relations #grid #cl-frame #sub-frame #cl-cicn{
     width: 40px;
     height: 40px;
-    background: linear-gradient(45deg, #d606a9, #f440a3 28%, #c40099 61%, #f361db);
+    background: --bg;
     border: none;
     border-radius: 50px;
-    color: white;
+    color: rgb(0, 0, 0);
     max-height: 40px;
     min-width: 40px;
     text-align: center;
@@ -2154,7 +2178,7 @@ body header .btn .contact{
 #footer #gen2 a #cic{
     width: 40px;
     height: 40px;
-    background: linear-gradient(45deg, #990078, #f440a3 28%, #c40099 61%, #c954ff);
+    background: var(--bg1);
     border-radius: 50px;
     margin-right: 15px;
     color: white;
@@ -2287,7 +2311,7 @@ body header .btn .contact{
         width: 310px;
         height: 500px;
         min-height: 500px;
-        background: url(/img/hu.png);
+        background: url(../img/hu.png);
         background-size: 310px 600px;
         background-position: center;
         background-repeat: no-repeat;
@@ -2377,7 +2401,7 @@ body header .btn .contact{
         width: 280px;
         height: 500px;
         min-height: 500px;
-        background: url(/img/hu.png);
+        background: url(../img/hu.png);
         background-size: 360px 780px;
         background-position: center;
         background-repeat: no-repeat;
@@ -2394,6 +2418,12 @@ body header .btn .contact{
         justify-content: flex-end;
         margin-top: 40px;
     }
+
+    
+.devtife{
+    max-width: 130px;
+}
+
 
     
 #cl-relations #grid #cl-frame #sub-frame h5{
@@ -2431,7 +2461,7 @@ body header .btn .contact{
 
 .topper .top{
     padding: 5px;
-    background: #c9009d;
+    background: var(--bg);
     color: white;
     font-family: 'Poppins', sans-serif;
     z-index: 100;
