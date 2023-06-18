@@ -36,7 +36,7 @@ setInterval(blae, 500)
 const data = [
     
     {
-        link:`"https://lokosfoods.netlify.app/"`,
+        link:`"https://lokofoods.netlify.app/"`,
         img:`"./img/Screenshot (205).png"`,
         tech: `<button class="btn">Design</button><button class="btn">Branding</button>`,
         name: `LOKO's FOOD`,
